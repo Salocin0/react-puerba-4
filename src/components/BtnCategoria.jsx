@@ -4,6 +4,9 @@ const BtnCategoria = ({ texto, categoria, funcionPadre }) => {
     funcionPadre(categoria);
   };
 
+  const handleSetCategoria2 = () => {
+    funcionPadre(categoria);
+  };
   return <button onClick={handleSetCategoria}>{texto}</button>;
 };
 
